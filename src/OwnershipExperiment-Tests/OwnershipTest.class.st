@@ -1,12 +1,12 @@
 Class {
-	#name : 'OwnershipTests',
+	#name : 'OwnershipTest',
 	#superclass : 'TestCase',
 	#category : 'OwnershipExperiment-Tests',
 	#package : 'OwnershipExperiment-Tests'
 }
 
 { #category : 'tests' }
-OwnershipTests >> testOwner [
+OwnershipTest >> testOwner [
 
 	| owner object |
 	owner := Object new.
