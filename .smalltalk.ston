@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'OwnershipExperiment',
+      #platforms : [ #pharo ],
+      #directory : 'src',
+      #onConflict : #useIncoming
+    }
+  ]
+}
